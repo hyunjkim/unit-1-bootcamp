@@ -8,7 +8,12 @@ public class Cat {
   private int age;
   private Person owner;
 
-  public Cat() {
+  public Cat(){}
+
+  public Cat(String name, int age, String favoriteFood) {
+    this.name = name;
+    this.age = age;
+    this.favoriteFood = favoriteFood;
   }
 
   public Cat(String name) {
